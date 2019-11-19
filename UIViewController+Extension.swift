@@ -1,6 +1,6 @@
 //
 //  UIViewController+Extension.swift
-//  AlarmPeel
+//  iOS-Extension
 //
 //  Created by JingyuJung on 2019/11/17.
 //  Copyright © 2019 JingyuJung. All rights reserved.
