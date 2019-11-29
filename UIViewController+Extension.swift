@@ -12,6 +12,7 @@ extension UIViewController {
     static func instanceFromStoryboard() -> Self {
         let storyboardName = NSStringFromClass(Self.self).components(separatedBy: ".").last!
         let vc = UIStoryboard(name: storyboardName, bundle: nil).instantiateInitialViewController()
+        vc?.loadView()
         return vc as! Self
     }
 }
