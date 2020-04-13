@@ -20,6 +20,9 @@ enum DateFormat: String {
     
     /// ex.  2020년 3월 30일
     case yyyy년_M월_d일 = "yyyy년 M월 d일"
+
+    ////  ex. 2020년 4월 13일 17:12
+    case yyyy년_M월_d일__hh_mm = "yyyy년 M월 d일 HH:mm"
 }
 
 extension Date {
